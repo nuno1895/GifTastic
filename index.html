@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Google Fonts link, load which ever ones you want, watch your speeds on downloads -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+<!-- ******************* Style Sheets ***************************** -->
+                <!-- reset style sheet -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+            <!-- phone-default style sheet -->
+  <link rel="stylesheet" href="assets/css/phone-default.css">
+             <!-- tablet style sheet -->
+  <link rel="stylesheet" href="assets/css/tablet.css">
+              <!-- desktop style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- This tells Phones Not to Lie about thier Width-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--   ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES
+  [if you this page needs to funtion for  IE 9 or earlier uncomment the two scripts below>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif] -->
+
+  <!-- Change your title here for SEO -->
+  <title>Nuno's GifTastic</title>
+
+
+</head>
+<body>
+
+  <div id="headerWrapper">
+  <header>
+    <h1>Nuno's GifTastic</h1>
+    
+  </header>
+  </div> <!--end of header wrapper-->
+
+  
+
+  <div id="contentWrapper">
+    <div class ="row">
+        <div class="column-9">
+          <h1>Click The Buttons Below To Get Some of Your Favorite Comic Book Character GIFs. Or Make Your Own Button!!! </h1>
+
+          <div id ="initalBtns"></div>
+        </div> <!-- end column -->
+        <div class="column-3">
+           <form id="hero-form">
+            <label for="hero-input">Create Your Button Below</label>
+            <input type="text" id="hero-input"><br>
+
+            <!-- This button will trigger our AJAX call -->
+            <input id="find-hero" type="submit" value="Hero Search" align="center">
+        </form>
+        </div><!-- end column -->
+    </div> <!-- end row -->
+
+
+    
+      <div class ="row" id="gifs-appear-here">
+      </div> <!-- end row -->
+    
+    
+  </div><!--end of content Wrapper -->
+
+<div id="footerWrapper">
+    <footer>
+      <!-- sample footer below, erase or change if you need it-->
+      <p> Copyright &copy; 2016  &bull; Nuno Tavares &bull;</p>
+    </footer>
+  </div> <!--end of Footer Wrapper -->
+
+
+<!-- latest Version of jQuery -->
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<!-- Your Main JS file -->
+<script src="assets/javascript/main.js"></script>
+</body>
+</html>
