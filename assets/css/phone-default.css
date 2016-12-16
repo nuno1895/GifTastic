@@ -109,7 +109,9 @@ nav ul li:last-child a {
 
 #initalBtns button{
 	padding: 10px;
-	margin: 5px;
+	text-align: center;
+    margin: 0;
+	/*margin: 5px;*/
 	font-size: 1em;
 	background-color: #2D4772;
 	color:white;
